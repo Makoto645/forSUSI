@@ -1,10 +1,10 @@
-** sch_path: /home/ishi-kai/openmpw-transistor-level-examples/OpenSUSI-TR10/opamp3/555timer_bk/555MOS.sch
+** sch_path: /home/ishi-kai/555/555timer_bk/555MOS.sch
 .subckt 555MOS vdd th out vctrl trig vss rst dischg
 *.PININFO vctrl:I out:O trig:I th:I rst:I dischg:O vdd:B vss:B
 MM2 net2 vctrl net5 vss NMOS w=20u l=2u m=1
 MM1 net1 th net5 vss NMOS w=20u l=2u m=1
 MM3 net1 net1 vdd vdd PMOS w=20u l=2u m=1
-MM4 net4 net1 vdd net20 PMOS w=20u l=2u m=1
+MM4 net4 net1 vdd vdd PMOS w=20u l=2u m=1
 MM5 net3 net2 vdd vdd PMOS w=20u l=2u m=1
 MM6 net2 net2 vdd vdd PMOS w=20u l=2u m=1
 MM7 net7 net11 net6 vdd PMOS w=80u l=2u m=1

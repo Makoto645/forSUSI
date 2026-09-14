@@ -214,6 +214,9 @@ N 1270 180 1300 180 {lab=#net3}
 N 1340 -260 1340 150 {lab=#net3}
 N 1290 110 1290 180 {lab=#net3}
 N 1290 110 1340 110 {lab=#net3}
+N 110 -380 110 -320 {lab=vdd}
+N 110 -380 160 -380 {lab=vdd}
+N 110 -320 160 -320 {lab=vdd}
 C {devices/ipin.sym} 170 -40 0 0 {name=p6 lab=vctrl}
 C {devices/opin.sym} 2270 -110 0 0 {name=p3 lab=out}
 C {MN.sym} 680 -180 0 1 {name=M2 model=NMOS w=20u l=2u m=1 as=0 ad=0 ps=0 pd=0 nrd=0 nrs=0 spiceprefix=X}
